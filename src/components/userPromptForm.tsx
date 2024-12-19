@@ -4,7 +4,7 @@ export function UserPromptForm({
   onSubmit,
   userPromptFormRef,
 }: Readonly<{
-  onSubmit: FormEventHandler<HTMLFormElement>,
+  onSubmit: FormEventHandler<HTMLFormElement>;
   userPromptFormRef: RefObject<HTMLFormElement | null>;
 }>) {
   return (
